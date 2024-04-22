@@ -1,0 +1,71 @@
+.blogPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light gray background color */
+  }
+  
+  .blogBox {
+    background-color: #fff; /* White background color for the blog box */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center; /* Center align the content */
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px; /* Set maximum width for better readability */
+  }
+  
+  .Title input,
+  .Content input {
+    width: calc(100% - 20px); /* Adjust width to accommodate padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .addButton button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addButton button:hover {
+    background-color: #45a049; /* Darker green when hovering */
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  .view {
+    width: 80%;
+    max-width: 600px; /* Set maximum width for better readability */
+  }
+  
+  .blog {
+    background-color: #fff; /* White background color for individual blog */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .blog h2 {
+    color: #333; /* Dark text color for blog titles */
+    margin-bottom: 10px;
+  }
+  
+  .blog p {
+    color: #555; /* Medium text color for blog content */
+  }
+  
